@@ -12,3 +12,11 @@ jobs:
       - name: Say Hello GH Actions
         run: |
           echo "Hello GH Actions"
+    steps:
+      - name: Now it is
+        run: |
+          echo date
+    steps:
+      - name: Directory content
+        run: |
+          echo ls
