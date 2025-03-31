@@ -1,6 +1,9 @@
 name: Hello GH Actions!
 
 on:
+  push:
+    branches:
+      - master
 
 jobs:
   hello_gh_actions_job:
